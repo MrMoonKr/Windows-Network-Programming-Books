@@ -2,21 +2,21 @@
 
 int main(int argc, char *argv[])
 {
-	// À©¼Ó ÃÊ±âÈ­
+	// ìœˆì† ì´ˆê¸°í™”
 	WSADATA wsa;
 	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
 		return 1;
-	printf("[¾Ë¸²] À©¼Ó ÃÊ±âÈ­ ¼º°ø\n");
+	printf("[ì•Œë¦¼] ìœˆì† ì´ˆê¸°í™” ì„±ê³µ\n");
 
-	// ¼ÒÄÏ »ı¼º
+	// ì†Œì¼“ ìƒì„±
 	SOCKET sock = socket(AF_INET, SOCK_STREAM, 0);
 	if (sock == INVALID_SOCKET) err_quit("socket()");
-	printf("[¾Ë¸²] ¼ÒÄÏ »ı¼º ¼º°ø\n");
+	printf("[ì•Œë¦¼] ì†Œì¼“ ìƒì„± ì„±ê³µ\n");
 
-	// ¼ÒÄÏ ´İ±â
+	// ì†Œì¼“ ë‹«ê¸°
 	closesocket(sock);
 
-	// À©¼Ó Á¾·á
+	// ìœˆì† ì¢…ë£Œ
 	WSACleanup();
 	return 0;
 }
