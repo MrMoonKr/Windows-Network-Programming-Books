@@ -3,7 +3,7 @@
 - 윈도우 기반 네트워크 프로그래밍 관련 책 소스코드 모음.
 
 
-## IT Cookbook, TCP/IP 소켓 프로그래밍 2판 ( 첵 예제 )  
+## IT Cookbook, TCP/IP 소켓 프로그래밍 2판 ( 책 예제 )  
 
 - 디렉토리 : 1-TCP-IP-Socket-Programming-2nd
 - 알라딘 : https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=297117238  
